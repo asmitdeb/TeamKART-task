@@ -1,13 +1,6 @@
 // C++ code
 //
-int button = 0;
-int speed = 0;
-int val = 0;
-int temp = 0;
-unsigned int lspeed = 0;
-unsigned int rspeed = 0;
-unsigned int lturn = 0;
-unsigned int rturn = 0;
+
 void setup()
 {
   pinMode(9, OUTPUT);
@@ -103,4 +96,4 @@ unsigned int rturn = 0;
   }
     
   delay(10); // Delay a little bit to improve simulation performance
-} 
+}
